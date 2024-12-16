@@ -22,25 +22,19 @@
 1. Убедитесь, что у вас установлен Python.
 2. Создайте виртуальное окружение (рекомендуется для управления зависимостями проекта):
 
-   ```bash
    python -m venv venv
 
-3. Активируйте виртуальное окружение На Windows:
+3. Активируйте виртуальное окружение Windows/Linux::
 
-   ```bash
    python -m venv venv
 
-
-   ```bash
    source venv/bin/activate
-
-
    
-4. Установите зависимости с помощью pip:
-    ```bash
+   
+5. Установите зависимости с помощью pip:
+   
    pip install -r requirements.txt
 
 ## Запуск приложения
 
-    ```bash
    python main.py
